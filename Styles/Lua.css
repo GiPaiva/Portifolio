@@ -135,7 +135,6 @@ main h1{
     }
     main{
         flex-direction: column;
-        overflow: scroll;
     }
     ::-webkit-scrollbar{
         width: 10px;
@@ -154,5 +153,9 @@ main h1{
     }
     #portfolioDireita{
         position: static;
+    }
+    #boxImgsDireita img{
+        width: 220px;
+        height: 270px;
     }
 }
