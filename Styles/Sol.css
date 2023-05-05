@@ -56,7 +56,7 @@ main h1{
 }
 .perfil a{
     display: flex;
-    color: black;
+    color: white;
     position: absolute;
     top: -15px;
 }

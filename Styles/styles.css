@@ -21,6 +21,9 @@ body{
     background-size: cover;
     width: 100%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Cabeçalho */
@@ -83,10 +86,11 @@ main{
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    width: 100%;
+    width: 98%;
     height: 78%;
     position: absolute;
     bottom: 0;
+    margin: 0 5px;
 }
 main h1{
     color: white;
