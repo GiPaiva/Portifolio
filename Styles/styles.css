@@ -1,0 +1,113 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Pagina */
+body{
+    background-image: url("../Imgs/ImgFundo/Home.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* Cabeçalho */
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    color: white;
+    user-select: none;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-family: 'Jacques Francois Shadow', cursive;
+    font-size: 80px;
+}
+.logo img{
+    width: 180px;
+    height: 180px;
+}
+nav{
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(9,0,0,1) 50%,  rgba(255, 255, 255, 0) 100%);
+    width: 80%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav a{
+    color: white;
+    font-size: 40px;
+    font-family: 'Jockey One', sans-serif;
+}
+.sol,
+.home,
+.lua{
+    text-align: center;
+    width: 33.33%;
+    transition: all 0.7s;
+}
+.home:hover{
+    transform: scale(1.1);
+}
+.sol:hover{
+    background: linear-gradient(90deg, rgb(252,176,69) 0%, rgba(9, 0, 0, 0) 100%);
+    transform: scale(1.1);
+}
+.lua:hover{
+    background: linear-gradient(90deg, rgba(9, 0, 0, 0) 0%, rgb(56, 7, 89) 100%);
+    transform: scale(1.1);
+}
+
+/* Conteudo */
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: 78%;
+    position: absolute;
+    bottom: 0;
+}
+main h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Jockey One', sans-serif;
+    text-shadow: 2px 2px black;
+    user-select: none;
+}
+
+h1 > section{
+    display: flex;
+    align-self: center;
+}
+
+@media screen and (max-width: 1200px){
+    body{
+        background-image: url("../Imgs/ImgFundo/HomeResp.png");
+    }
+    main{
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+}
