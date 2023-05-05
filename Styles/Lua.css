@@ -112,20 +112,20 @@ main h1{
     
 }
 #boxImgsDireita #coluna{
-    width: 490px;
-    height: 280px;
+    width: 30em;
+    height: 17em;
     display: grid;
     grid-column-start: 1;
     grid-column-end: 3 ;
 }
 
 #boxImgsDireita img{
-    width: 230px;
-    height: 280px;
+    width: 15em;
+    height: 17em;
 }
 #boxImgsEsquerda img{
-    width: 230px;
-    height: 230px;
+    width: 16em;
+    height: 16em;
 }
 
 
