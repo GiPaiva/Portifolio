@@ -66,12 +66,12 @@ main h1{
     background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(252,176,69) 100%);
 }
 #logoArtista{
-    width: 20em;
-    height: 20em;
+    width: 300px;
+    height: 300px;
 }
 #logoInsta{
-    width: 1.2em;
-    height: 1.2em;
+    width: 100px;
+    height: 100px;
 }
 
 
@@ -86,8 +86,8 @@ main h1{
     margin-top: 15px;
 }
 .boxImgs img {
-    width: 17em;
-    height: 17em;
+    width: 230px;
+    height: 230px;
     border-radius: 10px;
     border: 2px solid black;
     margin: 5px;
