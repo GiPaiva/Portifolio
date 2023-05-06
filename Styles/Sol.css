@@ -57,13 +57,11 @@ main h1{
 .perfil a{
     display: flex;
     color: black;
-    position: absolute;
-    top: -15px;
-}
-.perfil p{
     width: max-content;
     height: max-content;
     background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(252,176,69) 100%);
+    position: absolute;
+    top: -15px;
 }
 #logoArtista{
     width: 300px;
