@@ -25,12 +25,6 @@ body{
 .boxImgs img:hover{
     box-shadow: 6px 8px 1px rgba(54, 54, 54, 0.608);
 }
-#boxImgsEsquerda img{
-    height: 100%;
-}
-#boxImgsDireita img{
-    height: 48%;
-}
 
 /* Responsividade */
 @media screen and (max-width: 1200px){

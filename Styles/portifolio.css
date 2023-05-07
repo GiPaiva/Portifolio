@@ -8,7 +8,7 @@ main h1{
 }
 
 .portfolio{
-    width: 50%;
+    width: 35%;
     height: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -29,7 +29,7 @@ main h1{
     top: 80px;
 }
 .perfil a{
-    font-size: 45px;
+    font-size: 54px;
     font-family: 'Jacques Francois Shadow', cursive;
     display: flex;
     position: absolute;
@@ -48,7 +48,6 @@ main h1{
 .boxImgs{
     width: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -62,10 +61,10 @@ main h1{
     transform: scale(1.05);
 }
 #boxImgsEsquerda img{
-    height: 100%;
+    height: 90%;
 }
 #boxImgsDireita img{
-    height: 48%;
+    height: 45%;
 }
 
 
